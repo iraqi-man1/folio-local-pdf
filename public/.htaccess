@@ -1,0 +1,5 @@
+Options -Indexes
+AddType text/javascript .mjs
+<IfModule mod_headers.c>
+  Header always set Content-Security-Policy "default-src 'self'; connect-src 'self'; script-src 'self' 'wasm-unsafe-eval'; worker-src 'self' blob:; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'"
+</IfModule>

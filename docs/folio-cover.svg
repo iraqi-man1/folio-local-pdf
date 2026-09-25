@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">Folio — Local PDF Suite</title>
+  <desc id="desc">A dark banner with the Folio name and a simple PDF page illustration.</desc>
+  <rect width="1200" height="300" rx="22" fill="#151b1d"/>
+  <path d="M0 228h1200" stroke="#30393a"/>
+  <path d="M74 66h5v168h-5z" fill="#78c9ad"/>
+  <text x="115" y="145" fill="#edf2ef" font-family="Arial, Helvetica, sans-serif" font-size="80" font-weight="700" letter-spacing="-5">folio<tspan fill="#78c9ad">.</tspan></text>
+  <text x="118" y="185" fill="#a9b8b0" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" letter-spacing="4">LOCAL PDF SUITE</text>
+  <text x="118" y="255" fill="#b9c6bf" font-family="Arial, Helvetica, sans-serif" font-size="18">Your files stay on your computer.</text>
+  <g transform="translate(826 45)">
+    <rect x="17" y="17" width="210" height="208" rx="12" fill="#222b2c" stroke="#50615c" stroke-width="2"/>
+    <rect x="0" y="0" width="210" height="208" rx="12" fill="#e7ece8"/>
+    <path d="M154 0v56h56" fill="#ced8d0"/>
+    <path d="M154 0l56 56" stroke="#b4c4b8" stroke-width="2"/>
+    <rect x="34" y="70" width="100" height="8" rx="4" fill="#283735"/>
+    <rect x="34" y="92" width="142" height="6" rx="3" fill="#8da49a"/>
+    <rect x="34" y="109" width="130" height="6" rx="3" fill="#8da49a"/>
+    <rect x="34" y="126" width="116" height="6" rx="3" fill="#8da49a"/>
+    <rect x="34" y="158" width="72" height="24" rx="5" fill="#267b62"/>
+    <text x="70" y="175" text-anchor="middle" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700">PDF</text>
+  </g>
+</svg>
