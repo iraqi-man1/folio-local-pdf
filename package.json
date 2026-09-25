@@ -11,7 +11,7 @@
     "dev": "vite",
     "prebuild": "node scripts/copy-pdfjs-assets.mjs",
     "build": "tsc -b && vite build",
-    "test": "node --experimental-strip-types --test tests/*.test.mjs",
+    "test": "node --experimental-strip-types --import ./tests/node-compat.mjs --test tests/*.test.mjs",
     "lint": "oxlint src tests scripts",
     "preview": "vite preview"
   },
